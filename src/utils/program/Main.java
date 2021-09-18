@@ -1,6 +1,8 @@
 package utils.program;
 
 import utils.dao.VendingMachine;
+import utils.entities.Coin;
+import utils.impl.TextBasedVendingMachine;
 
 import java.util.Scanner;
 
@@ -9,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        VendingMachine vendingMachine = null;
+        VendingMachine vendingMachine = new TextBasedVendingMachine();
 
         vendingMachine.displayProducts();
 
@@ -22,7 +24,7 @@ public class Main {
 
         String userEnteredCoins = scanner.next();
 
-        int[] enteresCoins = {};
+        int[] enteresCoins = Coin.parseCoins(userEnteredCoins);
 
         vendingMachine.enterCoins(enteresCoins);
         vendingMachine.displayChangeMessage();

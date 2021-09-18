@@ -4,6 +4,6 @@ import utils.entities.CoinBundle;
 
 public interface Calculator {
 
-    int calculateTota(CoinBundle enteredCoins);
+    int calculateTotal(CoinBundle enteredCoins);
     CoinBundle calculateChange(int amountMoneyToReturn);
 }
