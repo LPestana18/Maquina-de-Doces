@@ -55,11 +55,9 @@ public class TextBasedVendingMachine implements VendingMachine {
     public void displayChangeMessage() {
         System.out.println("            ");
         System.out.println("Your change is : " + change.getTotal() + " cents splitted as follows: ");
-        System.out.println("      100 cents coins: " + change.number100CentsCoins);
-        System.out.println("      50  cents coins: " + change.number50CentsCoins);
-        System.out.println("      20 cents coins: " + change.number20CentsCoins);
-        System.out.println("      10 cents coins: " + change.number100CentsCoins);
-        System.out.println("      5 cents  coins: " + change.number5CentsCoins);
+        System.out.println("      5 cents coins: " + change.number5CentsCoins);
+        System.out.println("      2 cents coins: " + change.number2CentsCoins);
+        System.out.println("      1 cents  coins: " + change.number1CentsCoins);
 
     }
 }

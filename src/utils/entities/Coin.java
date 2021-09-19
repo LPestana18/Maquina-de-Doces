@@ -2,7 +2,7 @@ package utils.entities;
 
 // objeto para tipos de moedas
 public enum Coin {
-    FIVE_CENTS(5), TEN_CENTS(10), TWENTY_CENTS(20), FIFTY_CENTS(50), HUNDRED_CENTS(100);
+    ONE_CENTS(1), TWO_CENTS(2), FIVE_CENTS(5);
 
     private int value;
 
