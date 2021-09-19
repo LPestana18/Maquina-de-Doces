@@ -2,7 +2,7 @@ package utils.impl;
 
 import utils.dao.Calculator;
 import utils.entities.CoinBundle;
-
+// class que implementa a interface Calculator
 public class SimpleCalculator implements Calculator {
 
     @Override

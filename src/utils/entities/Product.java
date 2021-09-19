@@ -1,5 +1,7 @@
 package utils.entities;
 
+// objeto produto
+// tipos dos produtos
 public enum Product {
     TWIX(1, 100), COKE(2, 50), WATER(3, 30), SANDWICH(4, 15);
 

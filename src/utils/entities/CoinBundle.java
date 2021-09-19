@@ -1,5 +1,7 @@
 package utils.entities;
 
+// Classe CoinBundle
+// Objeto que tem os tipos de moedas
 public class CoinBundle {
 
     public int number5CentsCoins;
